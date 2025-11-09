@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Award, BookOpen, Certificate, GraduationCap } from 'lucide-react';
+import { Award, BookOpen, Trophy, GraduationCap } from 'lucide-react';
 import { useRef } from 'react';
 
 const milestones = [
@@ -11,7 +11,7 @@ const milestones = [
     color: 'from-violet-500/40 to-fuchsia-500/30',
   },
   {
-    icon: Certificate,
+    icon: Trophy,
     title: 'Stanford ML Cert',
     subtitle: 'Deep Learning Milestone',
     desc: 'Hands-on with CNNs, RNNs, attention mechanisms and model deployment.',
